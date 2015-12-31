@@ -1,0 +1,110 @@
+body{
+	background-color: #fbfbfb;
+}
+
+.click_card{
+	border-radius: 20px;
+}
+
+table{
+	width: 75%;
+	margin: auto;
+}
+
+table tr td{
+	padding: 2%;
+	width: 10%;
+	text-align: center;
+}
+
+h1, h2{
+	text-align: center;
+	font-family: bitwise;
+}
+
+h1{
+	font-size: 5em;
+}
+
+h2{
+	font-size: 2em;
+}		
+
+.gz-pic{ 
+		position:absolute; 
+		top:27%;
+		left:25%; 
+		} 
+.gz-pic .forward{ 
+		position:absolute; 
+		top:0px;
+		left:160px;
+		width:320px; 
+		height:140px;  
+		opacity:0.5; 
+		background: url(f.png) no-repeat;
+		background-position: center center; 
+		}
+.gz-pic .backward{ 
+		position:absolute; 
+		top:340px;
+		left:160px; 
+		width:320px; 
+		height:140px;  
+		opacity:0.5;
+		background: url(rev.png) no-repeat;
+		background-position: center center; 
+		}
+
+.gz-pic .left{ 
+		position:absolute; 
+		top:0px;
+		left:0px; 
+		width:160px; 
+		height:480px;  
+		opacity:0.5;
+		background: url(l.png) no-repeat;
+		background-position: center center; 
+		}
+
+.gz-pic .right{ 
+		position:absolute; 
+		top:0px;
+		left:480px; 
+		width:160px; 
+		height:480px;  
+		opacity:0.5;
+		background: url(r.png) no-repeat;
+		background-position: center center; 
+		}
+
+.gz-pic .stop{ 
+		position:absolute; 
+		top:140px;
+		left:160px; 
+		width:320px; 
+		height:200px;  
+		opacity:0.5;
+		background: url(stop.png) no-repeat;
+		background-position: center center; 
+		}
+		 
+.forward:hover { 
+		opacity:1; 
+		}
+
+.backward:hover { 
+		opacity:1; 
+		}
+
+.left:hover { 
+		opacity:1; 
+		}
+
+.right:hover { 
+		opacity:1; 
+		}
+
+.stop:hover { 
+		opacity:1; 
+		}
